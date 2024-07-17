@@ -1,0 +1,40 @@
+body{
+    background-color: #151313
+}
+
+#board-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: darkslategray;
+    color: #fff;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    position: relative;
+    margin-top: 7%;
+  }
+
+  .box{
+    background-color: #151313;
+    border: 1px solid white;
+  }
+.box:hover{
+    background-color:brown;
+}
+
+#button-container{
+   display: flex;
+   justify-content: center;
+   margin-top: 2%;
+  }
+#restart{
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+#restart:hover {
+    background-color: black;
+}
