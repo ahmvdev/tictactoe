@@ -26,7 +26,6 @@ const playerTurn = function (i){
     if(board[i]=== ''){
         board[i] = currentPlayer.marker;
         cells[i].textContent = currentPlayer.marker;
-        console.log(board)
 
 
         if (checkWin(currentPlayer.marker)) {
